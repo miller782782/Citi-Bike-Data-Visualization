@@ -1,0 +1,282 @@
+{
+  "version": "v1",
+  "config": {
+    "visState": {
+      "filters": [],
+      "layers": [
+        {
+          "id": "ejubm3g",
+          "type": "point",
+          "config": {
+            "dataId": "total_departures",
+            "label": "point",
+            "color": [
+              18,
+              147,
+              154
+            ],
+            "highlightColor": [
+              252,
+              242,
+              26,
+              255
+            ],
+            "columns": {
+              "lat": "latitude",
+              "lng": "longitude"
+            },
+            "isVisible": true,
+            "visConfig": {
+              "radius": 8,
+              "fixedRadius": false,
+              "opacity": 0.8,
+              "outline": false,
+              "thickness": 2,
+              "strokeColor": null,
+              "colorRange": {
+                "name": "Custom Palette",
+                "type": "custom",
+                "category": "Custom",
+                "colors": [
+                  "#2C7BB6",
+                  "#6199C7",
+                  "#96B6D8",
+                  "#CBD4E0",
+                  "#E4BC73",
+                  "#FDAE61"
+                ]
+              },
+              "strokeColorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radiusRange": [
+                0,
+                50
+              ],
+              "filled": true
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center",
+                "outlineWidth": 0,
+                "outlineColor": [
+                  255,
+                  0,
+                  0,
+                  255
+                ],
+                "background": false,
+                "backgroundColor": [
+                  0,
+                  0,
+                  200,
+                  255
+                ]
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": {
+              "name": "total_departures",
+              "type": "integer"
+            },
+            "colorScale": "quantile",
+            "strokeColorField": null,
+            "strokeColorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear"
+          }
+        }
+      ],
+      "effects": [],
+      "interactionConfig": {
+        "tooltip": {
+          "fieldsToShow": {
+            "total_departures": [
+              {
+                "name": "station_name",
+                "format": null
+              },
+              {
+                "name": "total_departures",
+                "format": null
+              }
+            ]
+          },
+          "compareMode": false,
+          "compareType": "absolute",
+          "enabled": true
+        },
+        "brush": {
+          "size": 0.5,
+          "enabled": false
+        },
+        "geocoder": {
+          "enabled": false
+        },
+        "coordinate": {
+          "enabled": false
+        }
+      },
+      "layerBlending": "normal",
+      "overlayBlending": "normal",
+      "splitMaps": [],
+      "animationConfig": {
+        "currentTime": null,
+        "speed": 1
+      },
+      "editor": {
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "isClosed": true,
+              "bbox": [
+                -73.87529364976852,
+                40.750266684694154,
+                -73.8570603334178,
+                40.76163262355627
+              ]
+            },
+            "geometry": {
+              "type": "Polygon",
+              "coordinates": [
+                [
+                  [
+                    -73.86526832942057,
+                    40.76217682140083
+                  ],
+                  [
+                    -73.86914178028364,
+                    40.762190274025414
+                  ],
+                  [
+                    -73.86981373811419,
+                    40.76859426822569
+                  ],
+                  [
+                    -73.86376157152976,
+                    40.7624820984673
+                  ],
+                  [
+                    -73.85959656610046,
+                    40.76248932797351
+                  ],
+                  [
+                    -73.85960970795901,
+                    40.77448020579628
+                  ],
+                  [
+                    -73.86366321201942,
+                    40.77453594516427
+                  ],
+                  [
+                    -73.86366759263893,
+                    40.767159763460164
+                  ],
+                  [
+                    -73.86926914923008,
+                    40.77430574076995
+                  ],
+                  [
+                    -73.87332110547146,
+                    40.774218854564964
+                  ],
+                  [
+                    -73.87315806854876,
+                    40.76219116251423
+                  ],
+                  [
+                    -73.86899333568905,
+                    40.76223779876552
+                  ],
+                  [
+                    -73.86523099680633,
+                    40.762309235119126
+                  ],
+                  [
+                    -73.8744999788572,
+                    40.75129899436506
+                  ],
+                  [
+                    -73.86522342320428,
+                    40.757417796597295
+                  ],
+                  [
+                    -73.85682277728743,
+                    40.751022854461645
+                  ],
+                  [
+                    -73.86526832942057,
+                    40.76217682140083
+                  ]
+                ]
+              ]
+            },
+            "id": "je2wugj"
+          }
+        ],
+        "visible": true
+      }
+    },
+    "mapState": {
+      "bearing": -55.42499999999999,
+      "dragRotate": true,
+      "latitude": 40.7504947813027,
+      "longitude": -73.93527184860908,
+      "pitch": 12.917070472965886,
+      "zoom": 10.572627553727528,
+      "isSplit": false,
+      "isViewportSynced": true,
+      "isZoomLocked": false,
+      "splitMapViewports": []
+    },
+    "mapStyle": {
+      "styleType": "dark-matter",
+      "topLayerGroups": {},
+      "visibleLayerGroups": {
+        "label": true,
+        "road": true,
+        "border": false,
+        "building": true,
+        "water": true,
+        "land": true,
+        "3d building": false
+      },
+      "threeDBuildingColor": [
+        15.035172933000911,
+        15.035172933000911,
+        15.035172933000911
+      ],
+      "backgroundColor": [
+        0,
+        0,
+        0
+      ],
+      "mapStyles": {}
+    }
+  }
+}

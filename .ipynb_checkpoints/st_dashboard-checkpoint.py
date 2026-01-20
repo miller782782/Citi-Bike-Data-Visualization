@@ -20,6 +20,8 @@ st.title("CitiBike Strategy Dashboard")
 st.markdown("The dashboard aims to diagnose where rental bike distribution issues arise and to advise CitiBike management on possible solutions to alleviate these problems.")
 
 
+st.markdown("Checking for automatic update.")
+
 ####################### Import data #########################################
 
 df_daily = pd.read_csv('daily_trips_temp.csv', index_col = 0)
