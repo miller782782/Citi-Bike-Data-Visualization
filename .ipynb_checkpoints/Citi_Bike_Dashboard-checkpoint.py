@@ -545,7 +545,7 @@ elif page == "7. Most Popular Routes":
         html_data = f.read()
 
     ## Show in web page 
-    st.header("Most popular bike trips in New York")
+    
     st.components.v1.html(html_data, height =500)
 
     st.markdown("Immediately we can see how busy it is at the southern end of Central Park. In fact, the top 2 trips are round trips starting from Central Park South & 6th Ave (12041 rides) and 7th Ave & Central Park South (8541 rides). This suggests that the most popular use of CitiBiki may be to ride around Central Park. Other trips starting and ending at stations around the edges of the park are also very popular routes. The route from the south of the park to the north is also popular. This makes sense as riding in Central Park is definitely one of the more relaxing ways to ride a bike in New York City!")
