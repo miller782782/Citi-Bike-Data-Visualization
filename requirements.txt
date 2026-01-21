@@ -1,5 +1,0 @@
-streamlit>=1.20
-plotly>=5.13
-matplotlib>=3.7
-pillow>=9.4
-numerize>=0.12
