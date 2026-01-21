@@ -14,8 +14,6 @@ from plotly.subplots import make_subplots
 import plotly.graph_objects as go
 import matplotlib.pyplot as plt
 from streamlit_plotly_events import plotly_events
-from streamlit_keplergl import keplergl_static
-from keplergl import KeplerGl
 from datetime import datetime as dt
 from numerize.numerize import numerize
 from PIL import Image
